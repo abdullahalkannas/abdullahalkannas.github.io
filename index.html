@@ -588,13 +588,16 @@
 							<div class="mu-contact-content">
 
 								<div id="form-messages"></div>
-								<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+								<form id="ajax-contact" method="post" action="contactform.php" class="mu-contact-form">
 									<div class="form-group">                
 										<input type="text" class="form-control" placeholder="الاسم" style="text-align: right" id="name" name="name" required>
 									</div>
 									<div class="form-group">                
 										<input type="email" class="form-control" placeholder="البريد الالكتروني" style="text-align: right" id="email" name="email" required>
-									</div>              
+									</div>   
+									<div class="form-group">                
+											<input type="text" class="form-control" placeholder="الموضوع" style="text-align: right" id="email" name="email" required>
+										</div>        
 									<div class="form-group">
 										<textarea class="form-control" placeholder="الرسالة" style="text-align: right" id="message" name="message" required></textarea>
 									</div>
@@ -656,12 +659,12 @@
     <!-- Counter js -->
     <script type="text/javascript" src="assets/js/counter.js"></script>
     <!-- Ajax contact form  -->
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="contactform.js"></script>
    
  
 	
     <!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="contactform.js"></script>
 	
     
   </body>
