@@ -507,6 +507,7 @@ button:focus {
 	width: 100%;
 }
 
+
 .mu-book-overview-single {
 	display: inline;
 	float: left;
@@ -515,6 +516,22 @@ button:focus {
 	background: #fff;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
+	transition: all 500ms ease;
+}
+
+.mu-book-overview-single:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 42px;
+	background: rgba(0, 255, 85, 0.3);
+	border-radius: 5px;
+	transition: all 2s ease;
+} 
+.mu-book-overview-single:hover:before {
+	width: 100%;
 }
 
 .mu-book-overview-icon-box {
@@ -535,8 +552,8 @@ button:focus {
 
 
 #mu-video-review {
-	/* background-image: url(assets/images/video-review-bg.jpeg); */
-	/* background-attachment: fixed; */
+	background-image: url(assets/images/video-review-bg.jpeg);
+	background-attachment: fixed;
 	background-size: cover;
 	display: inline;
 	position: relative;
