@@ -28,6 +28,20 @@ Version: 1.0
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+  /* font-family: 'Amiri', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+  /*font-family: 'Droid Arabic Naskh', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+  /* font-family: 'Lateef', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+  /*font-family: 'Scheherazade', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+  /* font-family: 'Thabit', serif; */
 
 body,
 html {
@@ -40,8 +54,8 @@ html {
   } 
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-family: 'Scheherazade', serif;
+	font-size: 20px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
 	color: #1c1b1b;
@@ -695,7 +709,7 @@ button:focus {
 }
 
 .mu-pricing-single {
-	background-color: #fff;
+	background-color:  #fff;
 	color: #555;
 	display: inline;
 	float: left;
