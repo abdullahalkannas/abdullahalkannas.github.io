@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 
 	<title>المكتب الدعوي - عبد الله محمود الكناص</title>
 
@@ -70,13 +71,13 @@
 
 
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav mu-menu navbar-right" style="font-size: 20px;">
+						<ul class="nav navbar-nav mu-menu navbar-right" style="font-size: 25px;">
 							<li><a href="#">الرئيسية</a></li>
 							<li><a href="#mu-book-overview">الدورات</a></li>
 							
-							<li><a href="#mu-author">قالوا عنا</a></li>
+							
 							<li><a href="#mu-pricing">مستويات</a></li>
-							<li><a href="#">مواعظ</a></li>
+							<li><a href="#mu-author">مواعظ</a></li>
 							<li><a href="#">مكتبة الكتب</a></li>
 							<li><a href="#mu-testimonials">اقتباسات</a></li>
 							<li><a href="#mu-contact">تواصل</a></li>
@@ -95,7 +96,78 @@
 
 				<div class="col-md-6 col-sm-6 col-sm-push-6">
 					<div class="mu-hero-right">
-						<img src="books2.jpg" alt="Ebook img">
+							<div class="slideshow-container">
+
+									<div class="mySlides">
+									  <div class="numbertext">1 / 5</div>
+									  <img src="assets/images/kalo5.png" style="border-radius: 8px;">
+									  
+									</div>
+									
+									<div class="mySlides">
+									  <div class="numbertext">2 / 5</div>
+									  <img src="assets/images/kalo2.png" style="border-radius: 8px;">
+									  
+									</div>
+									
+									<div class="mySlides">
+									  <div class="numbertext">3 / 5</div>
+									  <img src="assets/images/kalo3.png" style="border-radius: 8px;">
+									  
+									</div>
+									<div class="mySlides">
+											<div class="numbertext">4 / 5</div>
+											<img src="assets/images/kalo4.png" style="border-radius: 8px;">
+											
+										  </div>
+										  <div class="mySlides">
+												<div class="numbertext">5 / 5</div>
+												<img src="assets/images/kalo1.png" style="border-radius: 8px;">
+												
+											  </div>
+									
+									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides(1)">&#10095;</a>
+									
+									</div>
+									<br>
+									
+									<div style="text-align:center">
+									  <span class="dot" onclick="currentSlide(1)"></span> 
+									  <span class="dot" onclick="currentSlide(2)"></span> 
+									  <span class="dot" onclick="currentSlide(3)"></span> 
+									  <span class="dot" onclick="currentSlide(4)"></span> 
+									  <span class="dot" onclick="currentSlide(5)"></span> 
+									</div>
+									
+									<script>
+									var slideIndex = 1;
+									showSlides(slideIndex);
+									
+									function plusSlides(n) {
+									  showSlides(slideIndex += n);
+									}
+									
+									function currentSlide(n) {
+									  showSlides(slideIndex = n);
+									}
+									
+									function showSlides(n) {
+									  var i;
+									  var slides = document.getElementsByClassName("mySlides");
+									  var dots = document.getElementsByClassName("dot");
+									  if (n > slides.length) {slideIndex = 1}    
+									  if (n < 1) {slideIndex = slides.length}
+									  for (i = 0; i < slides.length; i++) {
+										  slides[i].style.display = "none";  
+									  }
+									  for (i = 0; i < dots.length; i++) {
+										  dots[i].className = dots[i].className.replace(" active", "");
+									  }
+									  slides[slideIndex-1].style.display = "block";  
+									  dots[slideIndex-1].className += " active";
+									}
+									</script>
 					</div>
 
 				</div>
@@ -158,23 +230,23 @@
 									<div class="col-md-3 col-sm-6">
 										<div class="mu-single-counter">
 											<i class="fa fa-files-o" aria-hidden="true"></i>
-											<div class="counter-value" data-count="650">0</div>
+											<div class="counter-value" data-count="50">0</div>
 											<h5 class="mu-counter-name">دورة</h5>
 										</div>
 									</div>
 
 									<div class="col-md-3 col-sm-6">
 										<div class="mu-single-counter">
-											<i class="fa fa-file-text-o" aria-hidden="true"></i>
-											<div class="counter-value" data-count="422">0</div>
-											<h5 class="mu-counter-name">كتاب</h5>
+											<i class="fa fa-globe" aria-hidden="true"></i>
+											<div class="counter-value" data-count="40">0</div>
+											<h5 class="mu-counter-name">دولة</h5>
 										</div>
 									</div>
 
 									<div class="col-md-3 col-sm-6">
 										<div class="mu-single-counter">
 											<i class="fa fa-users" aria-hidden="true"></i>
-											<div class="counter-value" data-count="1055">0</div>
+											<div class="counter-value" data-count="12100">0</div>
 											<h5 class="mu-counter-name">طالب مشترك</h5>
 										</div>
 									</div>
@@ -182,7 +254,7 @@
 									<div class="col-md-3 col-sm-6">
 										<div class="mu-single-counter">
 											<i class="fa fa-trophy" aria-hidden="true"></i>
-											<div class="counter-value" data-count="03">0</div>
+											<div class="counter-value" data-count="50000">0</div>
 											<h5 class="mu-counter-name">شهادة</h5>
 										</div>
 									</div>
@@ -582,49 +654,50 @@
 						<div class="mu-author-area">
 
 							<div class="mu-heading-area">
-								<h2 class="mu-heading-title">فوائد العلم الشرعي</h2>
+								<h2 class="mu-heading-title">مواعظ</h2>
+								<p style="font-size: 30px;">بقلم شيخنا عبدالله محمود الكناص</p>
 								<span class="mu-header-dot"></span>
 							</div>
 
-
+<p></p>
 							<div class="mu-author-content">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="mu-author-image">
-											<img src="books4.png" width="85%" alt="Author Image">
-										</div>
+								
+									<div class="col-md-12">
+										
+											<div class="row1"> 
+												
+													<div class="column1">
+													  <img src="assets/images/mawa1.jpg" style="width:100%">
+													</div>
+												
+													<div class="column1">
+															<img src="assets/images/mawa2.jpg" style="width:100%">
+													</div> 
+													<div class="column1">
+															<img src="assets/images/mawa3.jpg" style="width:100%">
+													</div> 
+													 
+													<div class="column1">
+															<img src="assets/images/mawa4.jpg" style="width:100%">
+													</div> 
+													 
+												  </div>
+	  
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-18">
 										<div class="mu-author-info">
-											<h3 style="text-align: right">قالَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ
-												وَسَلَّمَ: مَنْ يُرِدْ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ
+											<h3 style="text-align: right">أعمال المكتب
 											</h3>
-											<p style="text-align: right; font-size: 18px">
-												يُعتبر العلم الشرعيّ أنفع العلوم، حيث كان النبي محمد صلّى الله عليه
-												وسلّم يسأل الله في دعائه العلم النافع؛ وذلك لأنَّ الله يصلح بهذا العلم
-												الدنيا، والآخرة، كما كان النبي يُقدّمه في دعائه على طلب الرزق، وقبول
-												العمل، ولقد ثبت عن النبي محمد صلّى الله عليه وسلّم أنَّه قال: اللَّهمَّ
-												إنِّي أسألُكَ عِلمًا نافعًا ورزقًا طيِّبًا وعملًا متقبَّلًا
-
-
-											</p>
-											<div style="text-align: right; font-size: 18px">
-												<p>يُعدُّ العلم الشرعي الطريق الذي يقود بصاحبه إلى الجنة. تتواضع
-													الملائكة لطالب العلم الشرعيّ
-													<p>يُعتبر تعلم العلم الشرعيّ من الأمور الخيّرة التي يمنحها الله
-														لعباده، حيث يقول الله تبارك وتعالى: يُؤْتِي الْحِكْمَةَ مَن
-														يَشَاءُ ۚ وَمَن يُؤْتَ الْحِكْمَةَ فَقَدْ أُوتِيَ خَيْرًا
-														كَثِيرًا ۗ وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ</p>
-													<p>تتواضع الملائكة لطالب العلم الشرعيّ</p>
-													<p>تنغرس محبة طالب العلم الشرعيّ في نفوس جميع الناس، ويستغفرون له،
-														حتّى إنَّ العالم لو تأمل هذه الفائدة لهان عليه جميع الأمور
-														الصعبة التي يلقاها في طريق العلم</p>
-													<p>يُعدُّ طالب العلم الشرعي في منزلة المجاهد في سبيل الله تعالى،
-														والدليل على ذلك الحديث النبويّ الشريف: مَن جاءَ مَسجِدي هذا لم
-														يَأتِهِ إلَّا لِخيرٍ يتعلَّمُهُ أو يعلِّمُهُ فَهوَ بمنزلةِ
-														المجاهِدِ في سبيلِ اللَّهِ ومن جاءَ لغيرِ ذلِكَ فَهوَ بمنزلةِ
-														الرَّجُلِ ينظرُ إلى متاعِ غيرِهِ</p>
-											</div>
+											<div style="text-align: right; font-size: 25px"> 
+													<p>بفضلٍ من الله بدأ مكتبنا الدّعويّ عمله بإشراف فضيلة الشّيخ عبد الله الكناص منذ أكثر من<b> أربعة أعوام</b></p>
+													<p>و لمكتبنا انتشارٌ في أكثر من<b> أربعون دولة</b></p>
+													<p>و يقوم مكتبنا الدّعويّ بعمل دورات بمختلف العلوم الشَّرعيّة عبر<b> وسائل التواصل الاجتماعي</b></p>
+										 <p>و قد تمّ بفضل الله منح أكثر من <b>خمسون ألف شهادة</b> موقعة و مختومة من شيوخ و علماء لطلاب العلم في مختلف المواد الشرعيّ</p>
+							<p>							كما أنشأ الشّيخ المسؤول عن المكتب الدّعويّ فضيلة الشّيخ عبد الله الكناص هيئةً سُميت "<b><i><a href="#">هيئة تعلم</a></i></b>" ، و تضمُّ أكثر من <b>ثلاثون</b> بين عالم و داعية من النخبة ، و تهدف لإيصال ما لا يسع المسلم جهله في جميع العلوم الشّرعيّة إلى جميع أنحاء العالم
+													</p>
+													<img class="mu-author-sign" src="assets/images/sig.png" alt="Author Signature" style="width: 20%; float: left">
+												</div>
+										
 
 										</div>
 									</div>
