@@ -44,7 +44,6 @@ Version: 1.0
   /* font-family: 'Thabit', serif; */
 
   
-  
  
   
   .row1 {
@@ -684,7 +683,7 @@ button:focus {
 	
 	float: left;
 	margin-top: 50px;
-	
+	width: 100%;
 }
 
 .mu-author-image {
