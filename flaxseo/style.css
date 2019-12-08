@@ -33,6 +33,18 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
   /* font-family: 'Amiri', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+  /*font-family: 'Droid Arabic Naskh', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+  /* font-family: 'Lateef', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+  /*font-family: 'Scheherazade', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+  /* font-family: 'Thabit', serif; */
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -48,6 +60,26 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+.mu-primary-btn {
+	background-color:#3fc35f;;
+	border-radius: 100px;
+	border: solid 1px #ffffff;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 12px 25px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-primary-btn:hover,
+.mu-primary-btn:focus {
+	background-color: #31974a;
+    color: #fff;
+    
+}
 body {
     color: #999;
     font-size: 15px;
@@ -641,6 +673,17 @@ li.social-links a {
 /*------------------------------------------------------------------
     SECTIONS
 -------------------------------------------------------------------*/
+
+#mu-author {
+	background-color: #fff;
+	display: inline;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    
+}
 
 .parallax {
     background-attachment: fixed;

@@ -776,20 +776,21 @@ button:focus {
 }
 
 .mu-pricing-single-head h4 {
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 0;
 }
 
 .mu-pricing-single-head .mu-price-tag {
-	font-size: 55px;
+	font-size: 60px;
 	font-weight: 700;
 	margin-bottom: 0;
-	padding: 15px 0 20px;
+	padding: 10px 0 15px;
 }
 
 .mu-pricing-single-head .mu-price-tag span {
 	font-size: 22px;
 	margin-right: -10px;
+	font-family: 'Droid Arabic Naskh', serif;
 }
 
 .mu-price-feature {
@@ -802,6 +803,8 @@ button:focus {
 	list-style: none;
 	line-height: 2;
 	margin-bottom: 10px;
+	font-weight: bold;
+	font-family: 'Amiri', serif;
 }
 
 .mu-pricing-single-footer {
