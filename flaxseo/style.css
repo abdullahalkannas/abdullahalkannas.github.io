@@ -98,7 +98,7 @@
 }
 .mu-book-overview-single img{
     width: 100%;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 .mu-book-overview-content{
 	display: inline;
@@ -113,11 +113,11 @@
 	float: left;
 	text-align: center;
 	width: 100%;
-	background: rgb(209, 255, 196);
+	background: #fff;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
     transition: all 500ms ease;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .mu-book-overview-single:before {
@@ -128,7 +128,7 @@
 	width: 0px;
 	height: 42px;
 	background: rgba(0, 255, 85, 0.3);
-	border-radius: 50px;
+	border-radius: 20px;
 	transition: all 2s ease;
 } 
 .mu-book-overview-single:hover:before {
