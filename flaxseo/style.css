@@ -11,7 +11,7 @@
     3. SKELETON
     4. WP CORE
     5. HEADER
-    6. SECTIONS
+    6. SECTIONS 
     7. SECTIONS
     8. PORTFOLIO
     9. TESTIMONIALS
@@ -59,6 +59,38 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+
+.mu-social-media {
+	display: inline;
+	float: right;
+	width: 100%;
+}
+
+.mu-social-media a {
+	display: inline-block;
+	font-size: 15px;
+	width: 35px;
+	height: 35px;
+	line-height: 33px;
+	text-align: center;
+	margin: 0 5px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+    border-radius: 50%;
+    border: 1px solid #3fc35f;
+	color: #3fc35f;
+}
+
+.mu-social-media a:hover,
+.mu-social-media a:focus {
+    background-color: #fff;
+    border: 1px solid #3fc35f;
+	color: #3fc35f;
+}
+
+
+
+#menu{}
 #mu-book-overview {
 	background-color: #f8f8f8;
 	display: inline;
@@ -134,59 +166,91 @@
 .mu-book-overview-single:hover:before {
 	width: 100%;
 }
+.navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+    margin-top: 11px;
+    margin-bottom: -50px;
+}
+
+.navbar-brand img{
+	margin-top: -12px;
+}
 
 #akida {
+	background-color: #fff;
 	display: inline;
-	float: right;
-	padding: 160px 0 90px;
-	width: 100%;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
 #fikh {
+	background-color: #fff;
 	display: inline;
-	float: right;
-	padding: 160px 0 90px;
-	width: 100%;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
 
 #hadeeth {
+	background-color: #fff;
 	display: inline;
-	float: right;
-	padding: 160px 0 90px;
-	width: 100%;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
 
 #tafseer {
+	background-color: #fff;
 	display: inline;
-	float: right;
-	padding: 160px 0 90px;
-	width: 100%;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
 
 #nahu {
+	background-color: #fff;
 	display: inline;
-	float: right;
-	padding: 160px 0 90px;
-	width: 100%;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
 
 #mazeed {
+	background-color: #fff;
 	display: inline;
-	float: right;
-	padding: 160px 0 90px;
-	width: 100%;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
 
 #sira {
+	background-color: #fff;
 	display: inline;
-	float: right;
-	padding: 160px 0 90px;
-	width: 100%;
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
 
 #taalam {
 	display: inline;
 	float: right;
-	padding: 160px 0 90px;
+	padding: 50px 0 20px;
 	width: 100%;
 }
 
@@ -820,7 +884,7 @@ li.social-links a {
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
-    padding: 120px 0;
+    padding: 60px 0;
     position: relative;
     width: 100%;
 }
@@ -851,7 +915,7 @@ li.social-links a {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 35px 0;
 }
 
 .noover {
@@ -2718,7 +2782,43 @@ body.seo_version .footer-links a:hover{
     box-shadow: 10px 10px 15px 0px #ccc;
 }
 
+ @media (max-width: 1199px) {
+    .navbar-brand img {
+		width: 180px;
+		margin-top: -10px;
+	}
+ }
+ @media (max-width: 991px) {
+    .navbar-brand{
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+    .menu ul {
+display: flex;
+flex-direction: column-reverse;
+    }
+    .menu li{
+        flex: 0 0 auto;
+    }
+ }
+ 
 
+ @media (max-width: 320px){
+	
+	.navbar-brand {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+	.menu ul {
+        display: flex;
+        flex-direction: column-reverse;
+            }
+            .menu li{
+                flex: 0 0 auto;
+            }
+	
+	
+}
 
 
 

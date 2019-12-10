@@ -37,7 +37,7 @@
   /* font-family: 'Thabit', serif; */
 
   
-
+#menu{}
   
   .row1 {
 	display: -ms-flexbox; /* IE10 */
@@ -326,6 +326,7 @@ button:focus {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	margin-top: -11px;
+	text-align: right;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -571,6 +572,11 @@ button:focus {
 	padding: 20px 10px;
 	margin: 10px 0 15px;
 	transition: all 500ms ease;
+	border-radius: 8px;
+}
+
+.mu-book-overview-single img{
+	border-radius: 8px;
 }
 
 .mu-book-overview-single:before {
@@ -758,6 +764,7 @@ button:focus {
 	margin-bottom: 20px;
 	width: 100%;
 	padding: 30px 0;
+	border-radius: 15px;
 }
 
 .mu-pricing-single-head {
@@ -783,6 +790,7 @@ button:focus {
 .mu-pricing-single-head .mu-price-tag span {
 	font-size: 22px;
 	margin-right: -10px;
+	color: #3fc35f;
 	font-family: 'Droid Arabic Naskh', serif;
 }
 
@@ -1234,9 +1242,20 @@ button:focus {
 }
 
 @media (max-width: 991px) {
+	.menu ul {
+		display: flex;
+		flex-direction: column-reverse;
+			}
+			.menu li{
+				flex: 0 0 auto;
+			}
+		 
 
 
-	.mu-fixed-nav .navbar-brand img {
+	.navbar-brand img{
+        display: none;
+    }
+	.mu-fixed-nav{
 		margin-top: -7px;
 	}
 	
@@ -1367,9 +1386,9 @@ button:focus {
 
 @media (max-width: 480px) {
 
-	.navbar-brand img {
-		width: 150px;
-	}
+	.navbar-brand img{
+        display: none;
+    }
 
 	#mu-header {
 		padding: 10px 0;
@@ -1426,6 +1445,10 @@ button:focus {
 
 @media (max-width: 360px){
 
+	.navbar-brand img{
+        display: none;
+    }
+
 	.mu-featured-slider-content {
 		top: 49%;
 	}
@@ -1466,7 +1489,9 @@ button:focus {
 @media (max-width: 320px){
 	
 	
-	
+	.navbar-brand img{
+        display: none;
+    }
 	
 	
 }
