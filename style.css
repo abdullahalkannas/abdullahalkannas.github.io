@@ -1260,7 +1260,9 @@ button:focus {
 				flex: 0 0 auto;
 			}
 		 
-
+.se-pre-con{
+	display: none;
+}
 
 	.navbar-brand img{
         display: none;
@@ -1315,6 +1317,9 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+	.se-pre-con{
+		display: none;
+	}
 
 	.navbar-default .navbar-brand {
 		margin-top: -7px;
@@ -1367,6 +1372,9 @@ button:focus {
 
 
 @media (max-width: 640px){
+	.se-pre-con{
+		display: none;
+	}
 
 	#mu-header.mu-fixed-nav {
 		padding: 10px 0;

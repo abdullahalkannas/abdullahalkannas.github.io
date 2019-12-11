@@ -2794,12 +2794,16 @@ body.seo_version .footer-links a:hover{
 }
 
  @media (max-width: 1199px) {
+     
     .navbar-brand img {
 		width: 180px;
 		margin-top: -10px;
 	}
  }
  @media (max-width: 991px) {
+    .se-pre-con{
+        display: none;
+    }
     .navbar-brand{
         margin-top: -40px;
         margin-bottom: 40px;
