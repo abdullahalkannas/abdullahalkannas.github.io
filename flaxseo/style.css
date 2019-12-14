@@ -121,6 +121,9 @@
 	padding: 0 10%;
 	width: 100%;
 }
+.baramij button{
+    display: none;
+}
 
 .mu-heading-title {
 	color: #1c1b1b;
@@ -793,6 +796,7 @@ li.social-links a {
 .navbar-nav li {
     position: relative;
 }
+
 
 .navbar-nav span {
     font-size: 24px;
@@ -2786,21 +2790,43 @@ body.seo_version .footer-links a:hover{
 .map-box{
 	padding: 40px 30px;
 }
+.mu-footer-area{
+	display: inline;
+	float: left;
+	padding: 30px 0;
+	text-align: center;
+	width: 100%;
+}
 .small-map {
     width: 100%;
     height: 500px;
     margin: 0 auto auto;
     box-shadow: 10px 10px 15px 0px #ccc;
 }
-
+#dots{display: none;}
  @media (max-width: 1199px) {
      
     .navbar-brand img {
 		width: 180px;
 		margin-top: -10px;
-	}
+    }
+    
+    
  }
  @media (max-width: 991px) {
+    #dots{display: inline;}
+    #more {display: none;}
+    .baramij button{
+        display: contents;
+        color: #3fc35f;
+    }
+    .navbar-default .mu-menu li a {
+		display: inline-block;
+    }
+    .navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus{
+		background-color: transparent;
+	}
     .se-pre-con{
         display: none;
     }

@@ -129,7 +129,7 @@
 
 		jQuery('.mu-menu').on('click', 'li a', function() {
 		  $('.mu-navbar .in').collapse('hide');
-		});
+		}); 
 
 
 

@@ -15,7 +15,10 @@
 		} else {
 			$('.header_style_01').removeClass('fixed-menu');
 		}
-	});
+    });
+    jQuery('.mu-menu').on('click', 'li a', function() {
+        $('.mu-navbar .in').collapse('hide');
+      });
 
     /* ==============================================
     BACK TOP
@@ -134,6 +137,8 @@
             return false;
         });
     });
+
+    
 
     /* ==============================================
      CODE WRAPPER -->

@@ -93,9 +93,83 @@
 		<div class="container">
 			<div class="row">
 
-				
+<div class="col-md-6">
+					<div class="mu-hero-right">
+							<div class="slideshow-container">
 
+									<div class="mySlides">
+									  <div class="numbertext">1 / 5</div>
+									  <img src="assets/images/kalo5.png" style="border-radius: 8px;">
+									  
+									</div>
+									
+									<div class="mySlides">
+									  <div class="numbertext">2 / 5</div>
+									  <img src="assets/images/kalo3.png" style="border-radius: 8px;">
+									  
+									</div>
+									
+									<div class="mySlides">
+									  <div class="numbertext">3 / 5</div>
+									  <img src="assets/images/kalo2.png" style="border-radius: 8px;">
+									  
+									</div>
+									<div class="mySlides">
+											<div class="numbertext">4 / 5</div>
+											<img src="assets/images/kalo4.png" style="border-radius: 8px;">
+											
+										  </div>
+										  <div class="mySlides">
+												<div class="numbertext">5 / 5</div>
+												<img src="assets/images/kalo1.png" style="border-radius: 8px;">
+												
+											  </div>
+									
+									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides(1)">&#10095;</a>
+									
+									</div>
+									<br>
+									
+									<div style="text-align:center">
+									  <span class="dot" onclick="currentSlide(1)"></span> 
+									  <span class="dot" onclick="currentSlide(2)"></span> 
+									  <span class="dot" onclick="currentSlide(3)"></span> 
+									  <span class="dot" onclick="currentSlide(4)"></span> 
+									  <span class="dot" onclick="currentSlide(5)"></span> 
+									</div>
+									
+									<script>
+									var slideIndex = 1;
+									showSlides(slideIndex);
+									
+									function plusSlides(n) {
+									  showSlides(slideIndex += n);
+									}
+									
+									function currentSlide(n) {
+									  showSlides(slideIndex = n);
+									}
+									
+									function showSlides(n) {
+									  var i;
+									  var slides = document.getElementsByClassName("mySlides");
+									  var dots = document.getElementsByClassName("dot");
+									  if (n > slides.length) {slideIndex = 1}    
+									  if (n < 1) {slideIndex = slides.length}
+									  for (i = 0; i < slides.length; i++) {
+										  slides[i].style.display = "none";  
+									  }
+									  for (i = 0; i < dots.length; i++) {
+										  dots[i].className = dots[i].className.replace(" active", "");
+									  }
+									  slides[slideIndex-1].style.display = "block";  
+									  dots[slideIndex-1].className += " active";
+									}
+									</script>
+					</div>
 
+				</div>
 				<div class="col-md-6">
 					<div class="mu-hero-left">
 							<div class="bodycss"  style="font-family: 'Scheherazade', serif; line-height:60px; font-size:60px; font-weight: bold; text-align: right;">
@@ -131,83 +205,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-						<div class="mu-hero-right">
-								<div class="slideshow-container">
-	
-										<div class="mySlides">
-										  <div class="numbertext">1 / 5</div>
-										  <img src="assets/images/kalo5.png" style="border-radius: 8px;">
-										  
-										</div>
-										
-										<div class="mySlides">
-										  <div class="numbertext">2 / 5</div>
-										  <img src="assets/images/kalo3.png" style="border-radius: 8px;">
-										  
-										</div>
-										
-										<div class="mySlides">
-										  <div class="numbertext">3 / 5</div>
-										  <img src="assets/images/kalo2.png" style="border-radius: 8px;">
-										  
-										</div>
-										<div class="mySlides">
-												<div class="numbertext">4 / 5</div>
-												<img src="assets/images/kalo4.png" style="border-radius: 8px;">
-												
-											  </div>
-											  <div class="mySlides">
-													<div class="numbertext">5 / 5</div>
-													<img src="assets/images/kalo1.png" style="border-radius: 8px;">
-													
-												  </div>
-										
-										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-										<a class="next" onclick="plusSlides(1)">&#10095;</a>
-										
-										</div>
-										<br>
-										
-										<div style="text-align:center">
-										  <span class="dot" onclick="currentSlide(1)"></span> 
-										  <span class="dot" onclick="currentSlide(2)"></span> 
-										  <span class="dot" onclick="currentSlide(3)"></span> 
-										  <span class="dot" onclick="currentSlide(4)"></span> 
-										  <span class="dot" onclick="currentSlide(5)"></span> 
-										</div>
-										
-										<script>
-										var slideIndex = 1;
-										showSlides(slideIndex);
-										
-										function plusSlides(n) {
-										  showSlides(slideIndex += n);
-										}
-										
-										function currentSlide(n) {
-										  showSlides(slideIndex = n);
-										}
-										
-										function showSlides(n) {
-										  var i;
-										  var slides = document.getElementsByClassName("mySlides");
-										  var dots = document.getElementsByClassName("dot");
-										  if (n > slides.length) {slideIndex = 1}    
-										  if (n < 1) {slideIndex = slides.length}
-										  for (i = 0; i < slides.length; i++) {
-											  slides[i].style.display = "none";  
-										  }
-										  for (i = 0; i < dots.length; i++) {
-											  dots[i].className = dots[i].className.replace(" active", "");
-										  }
-										  slides[slideIndex-1].style.display = "block";  
-										  dots[slideIndex-1].className += " active";
-										}
-										</script>
-						</div>
-	
-					</div>
+				</div>
 				
 
 			</div>
@@ -291,17 +289,7 @@
 								
 
 
-									<div class="content">
-										<a href="https://t.me/sciencestudents1">
-											<div class="col-md-3 col-sm-6">
-												<div class="mu-book-overview-single">
-													<img src="flaxseo/uploads/new5.jpeg" alt="Ebook img">
-													<p></p>
-													<h4>مشروع تجمع طلبة العلم</h4>
-
-												</div>
-											</div>
-										</a></div>
+									
 									<div class="content">
 										<a href="https://t.me/muton1">
 											<div class="col-md-3 col-sm-6">
@@ -336,6 +324,18 @@
 											</div>
 										</a></div>
 										<div class="content">
+												<a href="https://t.me/joinchat/AAAAAFeiXsErDxFxh1anKA">
+													<div class="col-md-3 col-sm-6">
+														<div class="mu-book-overview-single">
+															<img src="flaxseo/uploads/new4.jpeg" alt="Ebook img">
+															<p></p>
+															<h4>المختصر في التفسير </h4>
+															
+		
+														</div>
+													</div>
+												</a></div>
+										<div class="content">
 												<a href="https://t.me/alkannas35">
 													<div class="col-md-3 col-sm-6">
 														<div class="mu-book-overview-single">
@@ -361,18 +361,7 @@
 											</div>
 										</a></div>
 									
-									<div class="content">
-										<a href="https://t.me/joinchat/AAAAAFeiXsErDxFxh1anKA">
-											<div class="col-md-3 col-sm-6">
-												<div class="mu-book-overview-single">
-													<img src="flaxseo/uploads/new4.jpeg" alt="Ebook img">
-													<p></p>
-													<h4>المختصر في التفسير </h4>
-													
-
-												</div>
-											</div>
-										</a></div>
+									
 									<div class="content">
 										<a href="https://t.me/alkannas4">
 											<div class="col-md-3 col-sm-6">
@@ -419,6 +408,17 @@
 																</div>
 															</div>
 														</a></div>
+														<div class="content">
+																<a href="https://t.me/sciencestudents1">
+																	<div class="col-md-3 col-sm-6">
+																		<div class="mu-book-overview-single">
+																			<img src="flaxseo/uploads/new5.jpeg" alt="Ebook img">
+																			<p></p>
+																			<h4>مشروع تجمع طلبة العلم</h4>
+						
+																		</div>
+																	</div>
+																</a></div>
 												
 														<div class="content">
 																<a href="../flaxseo/index.html">
@@ -513,7 +513,7 @@
 											</ul>
 
 											<div class="mu-pricing-single-footer">
-													<a href="../flaxseo/index.html" class="mu-order-btn">اقرأ المزيد</a>
+													<a href="flaxseo/bar.html" class="mu-order-btn">اقرأ المزيد</a>
 											</div>
 
 										</div>
@@ -538,7 +538,7 @@
 											</ul>
 
 											<div class="mu-pricing-single-footer">
-													<a href="../flaxseo/index.html" class="mu-order-btn">اقرأ المزيد</a>
+													<a href="flaxseo/bar.html" class="mu-order-btn">اقرأ المزيد</a>
 											</div>
 
 
@@ -563,7 +563,7 @@
 												</ul>
 	
 												<div class="mu-pricing-single-footer">
-														<a href="../flaxseo/index.html" class="mu-order-btn">اقرأ المزيد</a>
+														<a href="flaxseo/bar.html" class="mu-order-btn">اقرأ المزيد</a>
 												</div>
 	
 	
@@ -589,7 +589,7 @@
 											</ul>
 
 											<div class="mu-pricing-single-footer">
-													<a href="../flaxseo/index.html" class="mu-order-btn">اقرأ المزيد</a>
+													<a href="flaxseo/bar.html" class="mu-order-btn">اقرأ المزيد</a>
 											</div>
 
 
@@ -597,7 +597,7 @@
 									</div>
 									
 									<div class="mu-pricing-single-footer" style="text-align:center">
-											<a href="../flaxseo/index.html" class="mu-order-btn">اضغط للمزيد من البرامج القيمة</a>
+											<a href="flaxseo/bar.html" class="mu-order-btn">اضغط للمزيد من البرامج القيمة</a>
 										</div>
 
 
@@ -657,10 +657,10 @@
 												</h3>
 												<div style="text-align: right; font-size: 25px"> 
 														<p>بفضلٍ من الله بدأ مكتبنا الدّعويّ عمله بإشراف فضيلة الشّيخ عبد الله الكناص منذ أكثر من<b> أربعة أعوام</b></p>
-														<p>و لمكتبنا انتشارٌ في أكثر من<b> أربعون دولة</b></p>
-														<p>و يقوم مكتبنا الدّعويّ بعمل دورات بمختلف العلوم الشَّرعيّة عبر<b> وسائل التواصل الاجتماعي</b></p>
-											 <p>و قد تمّ بفضل الله منح أكثر من <b>خمسون ألف شهادة</b> موقعة و مختومة من شيوخ و علماء لطلاب العلم في مختلف المواد الشرعيّ</p>
-								<p>							كما أنشأ الشّيخ المسؤول عن المكتب الدّعويّ فضيلة الشّيخ عبد الله الكناص هيئةً سُميت "<b><i><a href="#">هيئة تعلم</a></i></b>" ، و تضمُّ أكثر من <b>ثلاثون</b> بين عالم و داعية من النخبة ، و تهدف لإيصال ما لا يسع المسلم جهله في جميع العلوم الشّرعيّة إلى جميع أنحاء العالم
+														<p>و لمكتبنا انتشارٌ في أكثر من<b> أربعين دولة</b></p>
+														<p>و يقوم مكتبنا الدّعويّ بعمل دورات بمختلف العلوم الشرعيّة عبر<b> وسائل التواصل الاجتماعي</b></p>
+											 <p>و قد تمّ بفضل الله منح أكثر من <b>خمسين ألف شهادة</b> موقعة و مختومة من شيوخ و علماء لطلاب العلم في مختلف المواد الشرعيّ</p>
+								<p>							كما أنشأ الشّيخ المسؤول عن المكتب الدّعويّ فضيلة الشّيخ عبد الله الكناص هيئةً سُميت "<b><i><a href="#">هيئة تعلم</a></i></b>" ، و تضمُّ أكثر من <b>ثلاثين</b> بين عالم و داعية من النخبة ، و تهدف لإيصال ما لا يسع المسلم جهله في جميع العلوم الشّرعيّة إلى جميع أنحاء العالم
 														</p>
 														<img class="mu-author-sign" src="assets/images/pic.jpg" alt="Author Signature" style="width: 20%; float: left">
 													</div>
