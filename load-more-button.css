@@ -30,13 +30,13 @@
     padding: 10px;
     border-radius: 10px;
     border: 1px solid transparent;
-    background-color: #3fc35f;
+    background-color: #008080;
     transition: .3s;
   }
   #loadMore:hover {
-    color: #3fc35f;
+    color: #008080;
     background-color: #fff;
-    border: 1px solid #3fc35f;
+    border: 1px solid #008080;
     text-decoration: none;
   }
   .noContent {
