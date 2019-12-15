@@ -21,6 +21,7 @@
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
+
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
   /* font-family: 'Amiri', serif; */
   
@@ -35,6 +36,13 @@
   
   @import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
   /* font-family: 'Thabit', serif; */
+  @import url('https://fonts.googleapis.com/css?family=Reem+Kufi&subset=arabic');
+  /*font-family: 'Reem Kufi', sans-serif;*/
+  @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa:400,700&subset=arabic');
+/*font-family: 'Aref Ruqaa', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text:400,500,600,700&subset=arabic,latin-ext,vietnamese');
+/*font-family: 'Markazi Text', serif;*/
+
 
   .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -103,7 +111,7 @@ html {
   } 
 
 body {
-	font-family: 'Scheherazade', serif;
+	font-family: 'Markazi Text', serif;
 	font-size: 20px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
@@ -130,7 +138,7 @@ a:hover,
 a:focus {
 	outline: none;
 	text-decoration: none;
-	color: #3fc35f;
+	color: #008080;
 }
 
 h1,
@@ -139,7 +147,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Markazi Text', serif;
 	font-weight: 700;
 	margin-top: 0;
 }
@@ -333,7 +341,7 @@ button:focus {
 .navbar-default .navbar-brand {
 	color: #fff;
 	font-size: 35px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Reem Kufi', sans-serif;
 	font-weight: 700;
 	margin-top: -11px;
 	text-align: right;
@@ -347,6 +355,7 @@ button:focus {
 .navbar-brand img{
 	margin-top: -12px;
 }
+
 
 #mu-header.mu-fixed-nav{
 	background-color: rgba(0,0,0,0.8);
@@ -596,7 +605,7 @@ button:focus {
 	left: 0px;
 	width: 0px;
 	height: 42px;
-	background: rgba(0, 255, 85, 0.3);
+	background: #0080809c;
 	border-radius: 5px;
 	transition: all 2s ease;
 } 
@@ -620,6 +629,26 @@ button:focus {
 /* VIDEO REVIEW */
 /*--------------------*/
 
+
+#mu-hero {
+	background-image: url(assets/images/arabic-pattern-gold-style-traditional-arab-east-geometric-decorative-background-83041774.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	display: inline;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#mu-hero:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.98;
+}
 
 #mu-video-review {
 	background-image: url(assets/images/video-review-bg.jpeg);
@@ -800,7 +829,7 @@ button:focus {
 .mu-pricing-single-head .mu-price-tag span {
 	font-size: 22px;
 	margin-right: -10px;
-	color: #3fc35f;
+	color: #008080;
 	font-family: 'Droid Arabic Naskh', serif;
 }
 
@@ -815,7 +844,7 @@ button:focus {
 	line-height: 2;
 	margin-bottom: 10px;
 	font-weight: bold;
-	font-family: 'Amiri', serif;
+	font-family: 'Markazi Text', serif;
 }
 
 .mu-pricing-single-footer {
@@ -1259,6 +1288,10 @@ button:focus {
 			.menu li{
 				flex: 0 0 auto;
 			}
+		
+					.menu ul ul{
+						flex: 0 0 auto;
+					}
 		 
 .se-pre-con{
 	display: none;

@@ -17,7 +17,7 @@ Author URI : http://www.markups.io/
 .mu-hero-left .mu-primary-btn:focus,
 .mu-single-counter i,
 .counter-value {
-	color: #3fc35f;
+	color: #008080;
 }
 
 .mu-send-msg-btn:hover,
@@ -28,32 +28,34 @@ Author URI : http://www.markups.io/
 .mu-social-media a:focus,
 .mu-order-btn:hover,
 .mu-order-btn:focus {
-	border: 1px solid #3fc35f;
-	color: #3fc35f;
+	border: 1px solid #008080;
+	color: #008080;
 }
 
 .mu-send-msg-btn {
-	border: 1px solid #3fc35f;
-	background-color: #3fc35f;
+	border: 1px solid #008080;
+	background-color: #008080;
 }
 
 
-#mu-hero,
+#mu-hero{
+	background-color: #008080c5;
+}
 .mu-testimonial-slide .slick-dots li button:hover,
 .mu-testimonial-slide .slick-dots li button:focus,
 .mu-testimonial-slide .slick-dots li.slick-active button,
 .mu-header-dot,
 .mu-author-social a,
 .mu-pricing-content .mu-popular-price-tag,
-#mu-video-review:before  {
-	background-color: #3fc35f;
+#mu-video-review:before, #mu-hero:before {
+	background-color: #008080;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-testimonial-slide .slick-dots li button:hover,
 .mu-testimonial-slide .slick-dots li button:focus,
 .mu-testimonial-slide .slick-dots li.slick-active button{
-	border: 1px solid #3fc35f;    
+	border: 1px solid #008080;    
 } 
 
 
