@@ -12,14 +12,14 @@
 
 
 	<link rel="shortcut icon" type="image/icon" href="circle-cropped.png" />
-
+	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
 
 
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
+	
 	<link href="assets/css/slick.css" rel="stylesheet">
 
 	<link id="switcher" href="assets/css/theme-color/green-theme.css" rel="stylesheet">
@@ -89,7 +89,59 @@
 		</div>
 	
 	</header>
+	<div class="popup">
+		<style scoped>
+        @import "assets/css/popup.css";
+    </style>
+			
+        <div class="content">
+            <div class="container">
+                <div class="circles">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
 
+                </div>
+
+                <span class="closebtn">&#9932;</span>
+
+                <div class="title">
+                    <h1>يعلن المكتب الدعوي لعبد الله بن محمود الكناص عن 
+							افتتاح <span>دورة جديدة ضمن سلسلة تراث الإمام ابن القيم رحمه الله  7</span></h1>
+                </div>
+
+
+                <div class="subscribe">
+                    <h1>الدورة الأولى: الجيوش الإسلامية على حرب المعطلة والجهمية للإمام ابن القيم رحمه الله  <br><span>للاشتراك في الدورة عبر:  التليجرام <br> 
+							</span></h1>
+
+                    <form>
+                        
+                        <input type="submit" href="https://t.me/alkannas37" value="اشترك الان">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        window.onload = function () { setTimeout(showPopup, 2000) };
+
+        function showPopup() {
+            
+                $('.popup').addClass('open');
+            
+
+            $('.popup .closebtn').click(function () {
+                $('.popup').removeClass('open');
+            });
+
+        }
+    </script>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	
 	<section id="mu-hero">
 			
