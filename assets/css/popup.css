@@ -82,6 +82,7 @@
     background-color: #333;
   }
   .popup .content .title h1 {
+    padding-top: 20px;
     text-align: center;
     color: #f66867;
     text-transform: uppercase;
@@ -98,7 +99,7 @@
     letter-spacing: 0.05rem;
   }
   .popup .content img {
-    width: 20%;
+    width: 100%;
     max-width: 220px;
     display: inline-block;
     margin: 30px 0 40px 0;
@@ -119,10 +120,10 @@
   .popup .content .subscribe h1 span {
     color: #f66867;
   }
-  .popup .content .subscribe form {
+  .popup .content form {
     overflow: hidden;
   }
-  .popup .content .subscribe form input {
+  .popup .content form input {
     width: 100%;
     float: center;
     padding: 15px 20px;
@@ -132,23 +133,23 @@
     letter-spacing: 0.05rem;
     outline: 0;
   }
-  .popup .content .subscribe form input[type=email] {
+  .popup .content form input[type=email] {
     margin-bottom: 15px;
     border: 1px solid #bec1c5;
     transition: all 0.4s;
   }
   
-  .popup .content .subscribe form input[type=email]:focus {
+  .popup .content form input[type=email]:focus {
     border-color: #3e4146;
   }
-  .popup .content .subscribe form input[type=submit] {
+  .popup .content  form input[type=submit] {
     background-color: #f66867;
     color: #ffffff;
     border: 1px solid #f66867;
     transition: all 0.4s;
   }
   
-  .popup .content .subscribe form input[type=submit]:hover {
+  .popup .content  form input[type=submit]:hover {
     cursor: pointer;
     background-color: #2ab1ce;
     border-color: #2ab1ce;
@@ -186,12 +187,12 @@
         height: 380px;
   
       }
-    .popup .content .subscribe form input[type=email] {
+    .popup .content form input[type=email] {
         margin-bottom: 0px;
         width: 75%;
         border-right-width: 0px;
       }
-    .popup .content .subscribe form input[type=submit] {
+    .popup .content form input[type=submit] {
         width: 25%;
       }
     .popup {
