@@ -123,7 +123,7 @@
   .popup .content form {
     overflow: hidden;
   }
-  .popup .content form input {
+  .popup .content form a {
     width: 100%;
     float: center;
     padding: 15px 20px;
@@ -133,23 +133,23 @@
     letter-spacing: 0.05rem;
     outline: 0;
   }
-  .popup .content form input[type=email] {
+  .popup .content form a[type=email] {
     margin-bottom: 15px;
     border: 1px solid #bec1c5;
     transition: all 0.4s;
   }
   
-  .popup .content form input[type=email]:focus {
+  .popup .content form a[type=email]:focus {
     border-color: #3e4146;
   }
-  .popup .content  form input[type=submit] {
+  .popup .content  form a[type=submit] {
     background-color: #f66867;
     color: #ffffff;
     border: 1px solid #f66867;
     transition: all 0.4s;
   }
   
-  .popup .content  form input[type=submit]:hover {
+  .popup .content  form a[type=submit]:hover {
     cursor: pointer;
     background-color: #2ab1ce;
     border-color: #2ab1ce;
@@ -187,12 +187,12 @@
         height: 380px;
   
       }
-    .popup .content form input[type=email] {
+    .popup .content form a[type=email] {
         margin-bottom: 0px;
         width: 75%;
         border-right-width: 0px;
       }
-    .popup .content form input[type=submit] {
+    .popup .content form a[type=submit] {
         width: 25%;
       }
     .popup {
