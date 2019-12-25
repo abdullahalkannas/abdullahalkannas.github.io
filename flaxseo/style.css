@@ -294,7 +294,7 @@
 }
 body {
     color: #999;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Amiri', serif;
     line-height: 1.7;
 }
@@ -2833,6 +2833,7 @@ body.seo_version .footer-links a:hover{
 {display: none;}
 
  @media (max-width: 1199px) {
+    
      
     .navbar-brand img {
 		width: 180px;
