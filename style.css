@@ -1254,7 +1254,12 @@ button:focus {
 /*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
-
+.bodycss{
+	font-family: 'Tajawal', sans-serif; line-height:60px; font-size:40px; font-weight: bold; text-align: right;
+}
+.whatever{
+	font-size: 20px; text-align: right;
+}
 @media (max-width: 1199px) {
 	
 	.mu-hero-left h1 {
@@ -1352,6 +1357,14 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+
+	.bodycss{
+		font-size: 30px;
+	}
+	.whatever{
+		font-size: 17px;
+	}
+
 	.se-pre-con{
 		display: none;
 	}
