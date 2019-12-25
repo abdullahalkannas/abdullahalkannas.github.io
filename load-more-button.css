@@ -32,6 +32,8 @@
     border: 1px solid transparent;
     background-color: #008080;
     transition: .3s;
+    font-size: 15px;
+    
   }
   #loadMore:hover {
     color: #008080;

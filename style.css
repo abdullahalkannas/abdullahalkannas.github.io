@@ -24,7 +24,8 @@
 
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
   /* font-family: 'Amiri', serif; */
-  
+  @import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+  /*font-family: 'Tajawal', sans-serif;*/
   @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
   /*font-family: 'Droid Arabic Naskh', serif;*/
   
@@ -111,7 +112,7 @@ html {
   } 
 
 body {
-	font-family: 'Markazi Text', serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
@@ -340,7 +341,7 @@ button:focus {
 
 .navbar-default .navbar-brand {
 	color: #fff;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: 'Reem Kufi', sans-serif;
 	font-weight: 700;
 	margin-top: -11px;
@@ -382,7 +383,7 @@ button:focus {
 .navbar-default .mu-menu li a {
 	border-bottom: 2px solid transparent;
 	color: #fff;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 400;
 	padding: 0 0 5px;
 	margin: 10px 15px 5px;
@@ -647,7 +648,7 @@ button:focus {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	opacity: 0.98;
+	opacity: 0.97;
 }
 
 #mu-video-review {
@@ -1346,6 +1347,7 @@ button:focus {
 	.mu-video-iframe {
 		height: 400px;
 	}
+	
 		
 }
 
@@ -1430,6 +1432,8 @@ button:focus {
 	.slick-dots {
 		bottom: 15px;
 	}
+
+	
 			
 
 }
