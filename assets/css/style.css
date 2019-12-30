@@ -652,7 +652,7 @@ button:focus {
 }
 
 #mu-video-review {
-	background-image: url(assets/images/video-review-bg.jpeg);
+	background-image: url(../images/video-review-bg.jpeg);
 	background-attachment: fixed;
 	background-size: cover;
 	display: inline;
