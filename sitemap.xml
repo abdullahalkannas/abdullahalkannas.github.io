@@ -4,7 +4,7 @@
 
    <url>
 
-      <loc>https://abdullahalkannas.github.io</loc>
+      <loc>https://abdullahalkannas.github.io/</loc>
 
       <lastmod>2020-01-02</lastmod>
 
@@ -15,6 +15,17 @@
    </url>
 
   
+   <url>
+
+      <loc>https://abdullahalkannas.github.io/index.html</loc>
+
+      <lastmod>2020-01-02</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
    <url>
 
       <loc>https://abdullahalkannas.github.io/maktab/bar.html</loc>
