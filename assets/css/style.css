@@ -254,6 +254,11 @@ button:focus {
 
 /*Wordpress default class*/
 
+.bullet li {
+	list-style-type:none;
+
+} 
+
 .alignleft {
 	float:left;
 	margin-right:8px;
@@ -1261,6 +1266,7 @@ button:focus {
 	font-size: 20px; text-align: right;
 }
 @media (max-width: 1199px) {
+	
 	
 	.mu-hero-left h1 {
 		font-size: 36px;
